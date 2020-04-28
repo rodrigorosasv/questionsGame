@@ -238,42 +238,6 @@ function renderAnswers(){
       localStorage.setItem(initials,JSON.stringify(userScore));
       console.log("Data sent to local storage");
     });
-      
-      // create user object from submission
-      /*var user = {
-        firstName: firstNameInput.value.trim(),
-        lastName: lastNameInput.value.trim(),
-        email: emailInput.value.trim(),
-        password: passwordInput.value.trim()
-      };
-      
-      // validate the fields
-      if (user.firstName === "") {
-        displayMessage("error", "First name cannot be blank");
-      } else if (user.lastName === "") {
-        displayMessage("error", "Last name cannot be blank");
-      } else if (user.email === "") {
-        displayMessage("error", "Email cannot be blank");
-      } else if (user.password === "") {
-        displayMessage("error", "Password cannot be blank");
-      } else {
-        displayMessage("success", "Registered successfully");
-    
-        // set new submission
-        console.log(user);
-        localStorage.setItem("user",JSON.stringify(user));
-        renderContent();
-      }
-    });*/
-
-    //<button id="sign-up">Sign Up</button>
-    
-    /*<div class="input-group">
-            <label for="first-name">First Name</label>
-            <input type="text" name="first-name" id="first-name" placeholder="Jane" />
-          </div>*/
-
-    //newForm.textContent="Enter your initials here: ";
     
   };
 
